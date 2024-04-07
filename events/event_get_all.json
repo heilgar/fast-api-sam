@@ -1,0 +1,20 @@
+{
+  "body": "",
+  "resource": "/items",
+  "path": "/items",
+  "httpMethod": "GET",
+  "isBase64Encoded": false,
+  "queryStringParameters": {},
+  "pathParameters": {},
+  "stageVariables": {
+    "baz": "qux"
+  },
+  "headers": {
+    "Accept": "application/json"
+  },
+  "requestContext": {
+    "stage": "prod",
+    "httpMethod": "GET",
+    "path": "/prod/items"
+  }
+}

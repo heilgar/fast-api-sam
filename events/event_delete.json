@@ -1,0 +1,20 @@
+{
+  "body": "",
+  "resource": "/items/{item_id}",
+  "path": "/items/{item_id}",
+  "httpMethod": "DELETE",
+  "isBase64Encoded": false,
+  "queryStringParameters": {},
+  "pathParameters": {
+    "item_id": "UUID_OF_THE_ITEM"
+  },
+  "stageVariables": {
+    "baz": "qux"
+  },
+  "headers": {},
+  "requestContext": {
+    "stage": "prod",
+    "httpMethod": "DELETE",
+    "path": "/prod/items/{item_id}"
+  }
+}
