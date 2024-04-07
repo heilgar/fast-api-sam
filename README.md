@@ -2,8 +2,7 @@
 SAM Template example for Docerized FastAPI Lambda + API Gateway + Secrets Manager
 
 ## High level architecture
-
-![High level architecture](./docs/hl_architecture.svg)
+![hl.png](docs/hl.png)
 
 1. The client makes an HTTP request (GET/POST/PUT/PATCH/DELETE).
 2. The API Gateway receives the request and invokes the Lambda authorizer.
