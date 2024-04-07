@@ -1,0 +1,20 @@
+{
+  "body": "{\"name\": \"New Item\", \"description\": \"This is a new item\"}",
+  "resource": "/items",
+  "path": "/items",
+  "httpMethod": "POST",
+  "isBase64Encoded": false,
+  "queryStringParameters": {},
+  "pathParameters": {},
+  "stageVariables": {
+    "baz": "qux"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "requestContext": {
+    "stage": "prod",
+    "httpMethod": "POST",
+    "path": "/prod/items"
+  }
+}

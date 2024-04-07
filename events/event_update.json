@@ -1,0 +1,23 @@
+{
+  "body": "{\"name\": \"Updated Item\", \"description\": \"Updated description\"}",
+  "resource": "/items/{item_id}",
+  "path": "/items/{item_id}",
+  "httpMethod": "PUT",
+  "isBase64Encoded": false,
+  "queryStringParameters": {},
+  "pathParameters": {
+    "item_id": "UUID_OF_THE_ITEM"
+  },
+  "stageVariables": {
+    "baz": "qux"
+  },
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "requestContext": {
+    "stage": "prod",
+    "httpMethod": "PUT",
+    "path": "/prod/items/{item_id}"
+  }
+}
